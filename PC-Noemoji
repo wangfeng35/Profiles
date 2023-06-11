@@ -1,0 +1,54 @@
+[custom]
+;不要随意改变关键字，否则会导致出错
+;去广告：支持
+;自动测速：不支持
+;微软分流：支持
+;苹果分流：支持
+;增强中国IP段：支持
+;增强国外GFW：支持
+
+;设置规则标志位
+surge_ruleset=全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+surge_ruleset=全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/TeamViewer-CIDR.list
+surge_ruleset=全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Scholar.list
+surge_ruleset=AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+surge_ruleset=AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
+surge_ruleset=OpenAI,https://raw.githubusercontent.com/wgetnz/chatgpt-openclash/main/chatgpt.list
+surge_ruleset=OpenAI,https://raw.githubusercontent.com/ExaAlice/Alice/main/Rule/OpenAi.list
+surge_ruleset=PayPal,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PayPal.list
+surge_ruleset=OneDrive,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
+surge_ruleset=游戏平台,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Nintendo.list
+surge_ruleset=苹果服务,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple.list
+surge_ruleset=微软服务,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Microsoft.list
+surge_ruleset=代理选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+surge_ruleset=代理选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+surge_ruleset=代理选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+surge_ruleset=全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+surge_ruleset=全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+surge_ruleset=全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/DMCA-Sensitive.list
+surge_ruleset=全球直连,[]GEOIP,CN
+surge_ruleset=漏网之鱼,[]FINAL
+;设置规则标志位
+
+;设置分组标志位
+custom_proxy_group=代理选择`select`.*
+custom_proxy_group=香港节点`select`(港|香港|HK)
+custom_proxy_group=美国节点`select`(美|美国|US)
+custom_proxy_group=日本节点`select`(日本|JP)
+custom_proxy_group=新加坡节点`select`(新加坡|SG|Singapore|SGP)
+custom_proxy_group=OpenAI`select`[]代理选择`[]新加坡节点`[]日本节点`[]美国节点
+custom_proxy_group=PayPal`select`[]美国节点`[]代理选择
+custom_proxy_group=OneDrive`select`[]代理选择`[]美国节点`[]香港节点`[]新加坡节点`[]日本节点
+custom_proxy_group=游戏平台`select`[]代理选择`[]香港节点`[]日本节点`[]🇸🇬 新加坡节点[]美国节点
+custom_proxy_group=苹果服务`select`[]美国节点`[]全球直连
+custom_proxy_group=微软服务`select`[]全球直连`[]代理选择
+custom_proxy_group=全球直连`select`[]DIRECT
+custom_proxy_group=AdBlock`select`[]REJECT`[]DIRECT
+custom_proxy_group=漏网之鱼`select`[]代理选择`[]全球直连
+
+
+;设置分组标志位
+
+enable_rule_generator=true
+;overwrite_original_rules=true
+;clash_rule_base=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GeneralClashConfig.yml
