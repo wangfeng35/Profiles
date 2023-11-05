@@ -13,7 +13,6 @@ surge_ruleset=全球直连,https://raw.githubusercontent.com/LM-Firefly/Rules/ma
 surge_ruleset=全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Scholar.list
 surge_ruleset=AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 surge_ruleset=AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
-surge_ruleset=OpenAI,https://raw.githubusercontent.com/wgetnz/chatgpt-openclash/main/chatgpt.list
 surge_ruleset=OpenAI,https://raw.githubusercontent.com/ExaAlice/Alice/main/Rule/OpenAi.list
 surge_ruleset=PayPal,https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/PayPal.list
 surge_ruleset=OneDrive,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
