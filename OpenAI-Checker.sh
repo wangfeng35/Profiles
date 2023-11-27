@@ -11,7 +11,7 @@ check_vpn() {
     ipv=$4
 
     # 发送请求并获取页面内容
-    response=$(curl -s "$ipv" "$url")
+    response=$(curl -s -"$ipv" "$url")
 
     # 检查页面内容是否包含关键字
     if echo "$response" | grep -q "$keyword"; then
@@ -22,19 +22,19 @@ check_vpn() {
 }
 
 # 检查 Web ChatGPT
-check_vpn "https://chat.openai.com/" "VPN" "Web" "-4"
+check_vpn "https://chat.openai.com/" "VPN" "Web" "4"
 
 # 检查 iOS ChatGPT
-check_vpn "https://ios.chat.openai.com/" "VPN" "iOS" "-4"
+check_vpn "https://ios.chat.openai.com/" "VPN" "iOS" "4"
 
 # 检查 Android ChatGPT
-check_vpn "https://android.chat.openai.com/" "VPN" "Android" "-4"
+check_vpn "https://android.chat.openai.com/" "VPN" "Android" "4"
 
 # 检查 Web ChatGPT
-check_vpn "https://chat.openai.com/" "VPN" "Web" "-6"
+check_vpn "https://chat.openai.com/" "VPN" "Web" "6"
 
 # 检查 iOS ChatGPT
-check_vpn "https://ios.chat.openai.com/" "VPN" "iOS" "-6"
+check_vpn "https://ios.chat.openai.com/" "VPN" "iOS" "6"
 
 # 检查 Android ChatGPT
-check_vpn "https://android.chat.openai.com/" "VPN" "Android" "-6"
+check_vpn "https://android.chat.openai.com/" "VPN" "Android" "6"
