@@ -15,9 +15,9 @@ check_vpn() {
 
     # 检查页面内容是否包含关键字
     if echo "$response" | grep -q "$keyword"; then
-        printf "\r %-20s:\t${Font_Red}No${Font_Suffix}\n" "${type}_ChatGPT ipv${ipv}"
+        printf "\r %-20s:\t${Font_Red}No${Font_Suffix}\n" "ipv${ipv} ${type}_ChatGPT"
     else
-        printf "\r %-20s:\t${Font_Green}Yes${Font_Suffix}\n" "${type}_ChatGPT ipv${ipv}"
+        printf "\r %-20s:\t${Font_Green}Yes${Font_Suffix}\n" "ipv${ipv} ${type}_ChatGPT"
     fi
 }
 
