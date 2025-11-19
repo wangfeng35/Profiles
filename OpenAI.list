@@ -92,3 +92,9 @@ DOMAIN-SUFFIX,cursor.com,
 DOMAIN-SUFFIX,cursor.sh,
 DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,download.todesktop.com
+# antigravity
+DOMAIN,antigravity-unleash.goog
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN,lh3.googleusercontent.com
+DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
+DOMAIN-SUFFIX,us-central1.run.app
