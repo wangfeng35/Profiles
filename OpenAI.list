@@ -95,6 +95,8 @@ DOMAIN-SUFFIX,download.todesktop.com
 # antigravity
 DOMAIN,antigravity-unleash.goog
 DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,nel.goog
 DOMAIN,lh3.googleusercontent.com
 DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
 DOMAIN-SUFFIX,us-central1.run.app
+DOMAIN,signaler-pa.googleapis.com
