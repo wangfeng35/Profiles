@@ -100,3 +100,15 @@ DOMAIN,lh3.googleusercontent.com
 DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
 DOMAIN-SUFFIX,us-central1.run.app
 DOMAIN,signaler-pa.googleapis.com
+# Anthropic & Claude Core 
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,usefathom.com
+DOMAIN-SUFFIX,siftscience.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN,play.googleapis.com
+DOMAIN,browser-intake-us5-datadoghq.com
